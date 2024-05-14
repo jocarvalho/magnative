@@ -203,8 +203,7 @@
     var zap_mensagem = 'Olá deixe sua mensagem logo entraremos em contato obrigado.';
     var zap_exibirPulsar = eval(('False').toLowerCase());
     function detectarDispositivoPrincipal() {
-        // window.open('https://api.whatsapp.com/send?phone=' + zap_telefone + '&text=' + zap_mensagem, '_blank');
-
+      
         let linkRedirecionamentoWhatsapp = "index.html";
         if (WURFL.is_mobile === true && WURFL.form_factor === "Smartphone") {
             linkRedirecionamentoWhatsapp = ('https://api.whatsapp.com/send?phone=' + zap_telefone + '&text=' + zap_mensagem);
@@ -911,31 +910,34 @@ honestamente para atender &agrave;s mais diversas necessidades de nossos Cliente
 <p>&nbsp;</p>
 
 <div class="btgrid">
-<div class="row row-1">
-<div class="col col-md-3">
-<div class="content">
-<p style="text-align: center;"><span style="font-size:20px;"><strong>Aeroporto</strong></span></p>
-</div>
-</div>
+    <div class="row row-1">
+    <div class="col col-md-3">
+        <div class="content">
+            <p style="text-align: center;"><span style="font-size:20px;"><strong>Aeroporto</strong></span></p>
+            <img src="imagens/aeroporto.jpg" onclick="detectarDispositivoPrincipal()"/>
+        </div>
+    </div>
 
-<div class="col col-md-3">
-<div class="content">
-<p style="text-align: center;"><span style="font-size:20px;"><strong>Viagens&nbsp;</strong></span></p>
-</div>
-</div>
+    <div class="col col-md-3">
+        <div class="content">
+            <p style="text-align: center;"><span style="font-size:20px;"><strong>Viagens&nbsp;</strong></span></p>
+            <img src="imagens/viagens.jpeg" onclick="detectarDispositivoPrincipal()"/>
+        </div>
+    </div>
 
-<div class="col col-md-3">
-<div class="content">
-<p style="text-align: center;"><span style="font-size:20px;"><strong>Casamento</strong></span></p>
-</div>
-</div>
+    <div class="col col-md-3">
+        <div class="content">
+            <p style="text-align: center;"><span style="font-size:20px;"><strong>Casamento</strong></span></p>
+            <img src="imagens/casamento.jpg" onclick="detectarDispositivoPrincipal()"/>
+        </div>
+    </div>
 
-<div class="col col-md-3">
-<div class="content">
-<p style="text-align: center;"><span style="font-size:20px;"><strong>Reuni&otilde;es</strong></span></p>
-</div>
-</div>
-</div>
+    <div class="col col-md-3">
+        <div class="content">
+            <p style="text-align: center;"><span style="font-size:20px;"><strong>Reuni&otilde;es</strong></span></p>
+        </div>
+    </div>
+    </div>
 </div>
 
 <p>&nbsp;</p>
